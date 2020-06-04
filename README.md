@@ -17,8 +17,3 @@ A clean version of the OpenEI data is in file `energy-consumption.csv.tar.bz2` (
 The script used to clean the data is in `clean-data.rb`.
 Timezone data for the cities present in the dataset is kept in `timezone.csv`; this file is used as a cache in the notebook, to avoid calling Google's geolocation API.
 
-# License
-
-The workbook is released under the GPL v3.0 license.
-The original dataset was released under the CC0 1.0 license.
-This work has been inspired by a [blog post](https://medium.com/startup-grind/i-reverse-engineered-a-500m-artificial-intelligence-company-in-one-week-heres-the-full-story-d067cef99e1c) by Gianluca Mauro.
